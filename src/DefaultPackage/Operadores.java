@@ -19,6 +19,8 @@ public class Operadores {
         double cm=6;
         double resultado=cm/pulgadas;
 
+        //
+
         System.out.println(c);
         System.out.println(f);
         System.out.println("En cm es " +cm+ " en pulgadas es " + resultado);
