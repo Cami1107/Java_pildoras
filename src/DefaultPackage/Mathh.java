@@ -4,13 +4,14 @@ public class Mathh {
     public static void main(String[] args) {
         //sacar la raiz de un numero con una libreria
         double raiz=Math.sqrt(9);
-        double num1=5.85F;
+        double num1=5.85;
+        //refundicion de datos
         int resultado=(int)Math.round(num1);
 
         //area de un rectangulo
         double base=5;
         double altura=3;
-        int area=(int)Math.pow(base,altura);
+        double area=Math.pow(base,altura);
 
         //imprimir resultado
         System.out.println(raiz);
